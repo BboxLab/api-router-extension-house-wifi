@@ -1,0 +1,46 @@
+/**********
+ * FONTES *
+ **********/
+/*
+   Adobe blank
+   Blank font : display : inline-block hack (remove the margins)
+*/
+@font-face {
+    font-family: 'adobeblank';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/AdobeBlank.otf') format('opentype'),
+    url('fonts/AdobeBlank.ttf') format('truetype');
+}
+
+/*
+    LATO
+*/
+@font-face {
+    font-family: 'open_sanslight', Arial;
+    src: local('Arial');
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: local('Arial');
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: local('Arial');
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: local('Arial');
+    font-weight: bold;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,26 @@
+{
+	"name":"Dessiner sa maison",
+	"version":"1.0",
+	"manifest_version": 2,
+	"description":"Permet de dessiner le plan de sa maison et d'y ajouter la puissance wifi de ses périphériques dans chaque pièce.",
+	"permissions": [
+	    "tabs",
+	    "<all_urls>"
+	],
+	"web_accessible_resources": ["logo-bbox.png"],
+     "browser_action":
+	{
+		"default_icon": "logo-bbox-48.png"
+	},
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+ 	"options_page": "options.html",
+	"icons": {
+		"16": "logo-bbox-16.png",
+       	"48": "logo-bbox-48.png",
+        "128": "logo-bbox-128.png"
+	}
+}
